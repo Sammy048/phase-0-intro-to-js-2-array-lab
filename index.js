@@ -15,7 +15,7 @@ function destructivelyRemoveLastCat(){
 }
 function destructivelyRemoveFirstCat(){
     cats.shift();
-    return cats;
+    return cats
 }
 function appendCat(name){
     const cat = [...cats, "Broom"];
